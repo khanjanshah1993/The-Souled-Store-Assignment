@@ -1,0 +1,459 @@
+.bodycontainer{
+width:100%;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: orange;
+    border-bottom:1px solid orange;
+}
+
+.topnav button:hover {
+    color: orange;
+    border-bottom:2px solid orange;
+}
+
+.topbar {
+	background-color: orange;
+	width:100%;
+}
+
+.topbar p {
+	text-align: center;
+	color: white;
+}
+
+/* Banner */
+#wrapper {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    border-bottom:2px solid orange;
+    border-top:1px solid black;
+}
+#container {
+    width: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+}
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+}
+
+
+
+/*Dropdown in top nav*/
+/* The dropdown container */
+.Shop {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.Shop .Shopbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: Black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.Official-Merch {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.Official-Merch .offmerchbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: Black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.Artists {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.Artists .artistsbtn{
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: Black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.Souled-Army {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.Souled-Army .souledarmybtn{
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: Black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*TopNav bigger menu*/
+.dropdown-content .subhead span{
+color:Orange;
+text-transform:uppercase;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  color:orange;
+}
+
+/* Show the dropdown menu on hover */
+.Shop:hover .dropdown-content {
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.Official-Merch:hover .dropdown-content {
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.Artists:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* main section */
+#main {
+    background-color: #fff;
+    padding:20px 0;
+}
+#content {
+    overflow: hidden;
+}
+#content #left, #content #right {
+    float: left;
+    margin: 0 2%;
+    width: 10%;
+}
+#content #right {
+    margin-left: 0;
+    width: 70%;
+}
+
+#content ul {
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+}
+#content #left ul li {
+    border-top: 1px solid #E7E7E7;
+    overflow: hidden;
+}
+
+#content #left ul li:hover {
+    background-color: #fbfbfb;
+}
+#content #right ul li {
+    width: 25%;
+    float:left;
+}
+#content #right ul li:hover {
+    background-color: #fbfbfb;
+}
+#content #right ul li:first-child {
+    border-width: none;
+}
+#content #left ul li .img {
+    text-align: center;
+}
+#content #right ul li .img {
+    background-color: #FFFFFF;
+    float: center;
+    height: 94px;
+    text-align: center;
+    width: 113px;
+}
+
+#content #right ul li .img img {
+    height:150px;
+    margin-top: 11px;
+    width:150px;
+}
+#content #left ul li .info {
+
+    padding: 1px 20px 0 1px;
+}
+#content #right ul li .info {
+    float: left;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: -webkit-paged-x;
+    padding: 10px 0 0 21px;
+    width: 164px;
+}
+#content ul li .info .title {
+    color: #4B4B4B;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 150px;
+    
+}
+#content ul li .info .title:hover {
+    color: orange;
+}
+
+#content #left ul li .info .price {
+    background: none repeat scroll 0 0 #F7F7F7;
+    color: #fff200;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+   }
+#content #right .col-6{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    font-size:13px;     
+}
+
+#content #right .text-left{
+text-align: left!important;
+}
+
+#content #right .text-right{
+text-align:right!important;
+}
+
+
+/*Filter Section*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+    border-top:1px solid Black;
+    border-bottom:1px solid Black;
+    float:left;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/* Pagination links */
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+footer {
+    background: #e6e7e8;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(230, 231, 232);
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.container{
+width: 1140px;
+max-width:100%;
+}
+
+.row1{
+padding-left:200px;
+float: center;
+}
+
+.footsec{
+ float: left;
+  width: 25%;
+  padding: 5px;    
+}
+
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.payship{
+ float: left;
+  width: 49%;
+  padding: 5px;    
+}
+
+
+/* Clear floats after image containers */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row3{
+padding-left:200px;
+}
+
+.repsocial{
+ float: left;
+  width: 49%;
+  padding: 5px;    
+}
+
+
+/* Clear floats after image containers */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2{
+padding-left:200px;
+}
+
+
+.navlinksbtn{
+margin-left:200px;
+color:Orange;
+font-weight:700;
+}
+
+.abouttshirtbtn{
+margin-left:200px;
+color:Orange;
+font-weight:700;
+}
+
+.abouttshirt p{
+font-size:9px;
+}
